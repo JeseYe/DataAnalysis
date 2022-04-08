@@ -674,7 +674,7 @@ FROM Customers LEFT OUTER JOIN Orders
 ON Customers.cust_id = Orders.cust_id
 GROUP BY Customers.cust_id;
 
-Lesson 14 课 组合查询
+### Lesson 14 课 组合查询
 
 SQL也允许执行多个查询（多条 SELECT 语句），并将结果作为一
 个查询结果集返回。这些组合查询通常称为并（union）或复合查询
